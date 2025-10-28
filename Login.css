@@ -1,0 +1,46 @@
+/* Page background */
+.stApp {
+    background-color: #ecf0f1;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Center the login box */
+.login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+}
+
+/* Login button */
+.stButton>button {
+    background-color: #3498db;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stButton>button:hover {
+    background-color: #2980b9;
+}
+
+/* Title */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
